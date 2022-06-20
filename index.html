@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web</title>
+  </head>
+  <body>
+    <h1 style="color: red">Tinkerhub</h1>
+    <div>
+      <button onclick="changeColor('green')">Change to Green</button>
+      <button onclick="changeColor('orange')">Change to Orange</button>
+      <button onclick="changeColor('black')">Change to Black</button>
+      <button onclick="changeColor('blue')">Change to Blue</button>
+    </div>
+    <br />
+    <br />
+    <button onclick="changeSize('20px')">Change size to 20px</button>
+    <button onclick="changeSize('40px')">Change size to 40px</button>
+
+    <h2 id="count_display">0</h2>
+    <button onclick="incrementCount()">+</button>
+    <button onclick="decrementCount()">-</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
